@@ -1,0 +1,45 @@
+:root{
+    --cor-principal: white;
+}
+
+body{
+    background: black;
+}
+.profile-image img{
+    width:150px;
+    border-radius: 50%;
+    border: 3px solid var(--cor-principal);
+}
+
+.container{
+    text-align:center;
+}
+.profile-info{
+    color: white;
+    width: 400px;
+    margin:0 auto;
+}
+/* estilização da lista */
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li{
+    padding:5px 0;
+}
+ion-icon{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.links{
+
+    /* border: 1px solid red;  codigo para a borda */
+    display:flex;
+    justify-content: center;
+    gap: 15px;
+}
+.linkedin{
+    color: blue;
+}

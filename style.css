@@ -6,9 +6,9 @@ body{
     background: black;
 }
 .profile-image img{
-    width:150px;
+    width:200px;
     border-radius: 50%;
-    border: 3px solid var(--cor-principal);
+    
 }
 
 .container{
